@@ -5,7 +5,7 @@ import "./CollectionCard.css"
 const CollectionCard = ({id, name, traits, image}) => {
     return (
         <div className="collectionCard">
-            <img src={image} className=""/>
+            <img src={image} alt="nopic"/>
             <div className="details">
                 <div className="name">
                     {name} <div className="id"> .#{id} </div>
