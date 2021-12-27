@@ -8,11 +8,11 @@ function Header() {
     return (
         <div className="header">
             <div className="logoContainer">
-                <img src ={punkLogo} className="punklogo" alt = "no pic"/>
+                <img src ={punkLogo} className="punklogo" alt="no pic"/>
             </div>
             <div className="searchbar">
                 <div className="seachIconContainer">
-                      <img src ={searchIcon} className="searchIcon" alt = "no pic"/>
+                      <img src ={searchIcon} className="searchIcon" alt="no pic"/>
                 </div>
                 <input className="searchInput" placeholder = "Collection,item or user..."/>
             </div>
@@ -23,7 +23,7 @@ function Header() {
             </div>
             <div className="headerActions">
                 <div className="themeSwitchContainer">
-                    <img src ={themeicon} />
+                    <img src ={themeicon} alt="nopic" />
                 </div>
             </div>
             <div className="loginButton">GET IN</div>
